@@ -1,10 +1,14 @@
 # Stress Test Form Website
 
-A stress test script to test form submission functionality on ribhav.live.
+Stress test scripts to test form submission functionality on multiple websites.
 
 ## About
 
-This stress test script was created with the permission of the website owner, **Ribhav Sharma**. It was used to check the website's ability to accept and handle form submissions.
+These stress test scripts were created with the permission of the website owners:
+- **Ribhav Sharma** (ribhav.live)
+- **Mithish Ravisankar** (mithishravisankar.com)
+
+The scripts were used to check the websites' ability to accept and handle form submissions.
 
 ## Requirements
 
@@ -20,8 +24,14 @@ pip install -r requirements.txt
 
 ## Usage
 
+For Ribhav Sharma's website (ribhav.live):
 ```bash
 python submit-forms.py
 ```
 
-The script will continuously submit forms with a 10-second delay between submissions. Press `Ctrl+C` to stop.
+For Mithish Ravisankar's website (mithishravisankar.com):
+```bash
+python submit-forms-mithish.py
+```
+
+Each script will continuously submit forms with a 10-second delay between submissions. Press `Ctrl+C` to stop.
