@@ -53,13 +53,13 @@ def submit_form():
         
         # Fill in the form
         name_input.clear()
-        name_input.send_keys('Mo Salah')
+        name_input.send_keys('Stress Test')
         
         email_input.clear()
         email_input.send_keys('example@example.com')
         
         message_input.clear()
-        message_input.send_keys('MO SALAH IS THE BEST FOOTBALLER IN THE WORLD!')
+        message_input.send_keys('Stress Test!')
         
         # Find and click submit button - look for "Send Message" button
         try:
